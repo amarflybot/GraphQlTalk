@@ -16,9 +16,11 @@ cd GraphQlTalk
 This shall start the server at 9111 port.
 
 ## Endpoints of Interest
-Spring data JPA entities list: http://34.85.47.211/graphqltalk/ 
+Spring data JPA entities list: http://localhost:9111/graphqltalk
 
-Graphql Playground: http://34.85.47.211/graphqltalk/playground 
+Graphql Playground: http://localhost:9111/graphqltalk/playground
+
+Graphql Voyager: http://localhost:9111/graphqltalk/voyager
 
 ### Schema produced from this endpoint
 <details><summary>CLICK ME</summary>
