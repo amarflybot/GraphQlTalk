@@ -1,4 +1,4 @@
-##Introduction to GraphQL
+## Introduction to GraphQL
 GraphQL is an exciting new query language that's transforming the way we think about APIs. Used in production by 
 Facebook, GitHub, and Shopify, it challenges RESTful API design by empowering consumers to query for exactly the 
 information they need. In this talk, I will give an introduction to the query language, 
@@ -6,7 +6,7 @@ how GitHub uses it internally with Ruby and Rails, and the lessons they learned 
 
 The GraphQL specification: https://graphql.github.io/graphql-spec/
 
-##Quick Setup
+## Quick Setup
 ```shell script
 git clone https://github.com/amarflybot/GraphQlTalk.git
 cd GraphQlTalk
@@ -15,12 +15,12 @@ cd GraphQlTalk
 ```
 This shall start the server at 9111 port.
 
-##Endpoints of Interest
+## Endpoints of Interest
 Spring data JPA entities list: http://34.85.47.211/graphqltalk/ 
 
 Graphql Playground: http://34.85.47.211/graphqltalk/playground 
 
-####Schema produced from this endpoint
+### Schema produced from this endpoint
 <details><summary>CLICK ME</summary>
 <p>
 
@@ -109,7 +109,7 @@ type User {
 </p>
 </details>
 
-####Sample Query for Playground
+#### Sample Query for Playground
 ```graphql
 {
   findUserById(id: 68) {
@@ -141,7 +141,7 @@ type User {
 }
 ```
 
-##Tech Stack Used
+## Tech Stack Used
 ```$xslt
 spring-boot-starter-web
 spring-boot-starter-data-jpa
